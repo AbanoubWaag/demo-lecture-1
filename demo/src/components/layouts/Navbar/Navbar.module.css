@@ -1,0 +1,45 @@
+/* .nav {
+    background-color: orange;
+} */
+
+.navInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.sideBar {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-bottom: 0 !important;
+    margin-right: 80px;
+}
+.signup {
+    border-radius: 10px;
+    background-color: #01A84D;
+    color: white;
+    padding: 5px;
+}
+.register {
+    color: #01A84D;
+    border: none;
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-right: 5px;
+}
+
+.links>li:hover {
+    color: #01A84D;
+}
